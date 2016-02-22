@@ -1,12 +1,12 @@
 {
     "ID":"E2D2C23B084D411DB66FE0C79D62CAH6",
-    "ActionKeyword":"case",                 
-    "Name":"Case Converter",               
-    "Description":"Convert Case - lowercase, uppercase, titlecase",            
-    "Author":"shahisha",                  
-    "Version":"1.0",                        
-    "Language":"python",                    
-    "Website":"http://www.github.com/ishu3101",      
+    "ActionKeyword":"case",
+    "Name":"Case Converter",
+    "Description":"Convert Case - lowercase, uppercase, titlecase",
+    "Author":"shahisha",
+    "Version":"1.0",
+    "Language":"python",
+    "Website":"http://www.github.com/ishu3101",
     "ExecuteFileName":"case.py",
-    "IcoPath": "icon.png"             
+    "IcoPath": "icon.png"
 }
