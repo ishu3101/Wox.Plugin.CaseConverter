@@ -2,7 +2,7 @@ import json
 import webbrowser
 import os
 
-def addToClipBoard(context, text):
+def copy_to_clipboard(context, text):
     command = 'echo ' + text.strip() + '| clip'
     os.system(command)
 
@@ -31,14 +31,14 @@ def query(input):
 
         res["Title"] = title
         res["SubTitle"] = "Convert to " + subTitle
-        res["ActionName"] = "addToClipBoard"
+        res["ActionName"] = "copy_to_clipboard"
         res["IcoPath"] = subTitle + ".png"
         res["ActionPara"] = title
         results.append(dict(res))
     # pretty prints json output
     return json.dumps(results,sort_keys=True,indent=4, separators=(',', ': '))
 
-def openUrl(context,url):
+def open_url(context,url):
     webbrowser.open(url)
 
 if __name__ == "__main__":
