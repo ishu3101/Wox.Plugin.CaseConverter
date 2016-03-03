@@ -1,5 +1,4 @@
 import json
-import webbrowser
 import os
 
 def copy_to_clipboard(context, text):
@@ -37,9 +36,6 @@ def query(input):
         results.append(dict(res))
     # pretty prints json output
     return json.dumps(results,sort_keys=True,indent=4, separators=(',', ': '))
-
-def open_url(context,url):
-    webbrowser.open(url)
 
 if __name__ == "__main__":
     print query("movie geo")
